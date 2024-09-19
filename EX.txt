@@ -1,0 +1,39 @@
+1 - Crie uma constante com o valor do número pi (3.14159) e exiba seu valor.
+
+2 - Crie uma variável idade com um valor inicial, modifique-a para um novo valor e exiba ambos.
+
+3 - Crie duas variáveis para armazenar o primeiro nome e o sobrenome do usuário, e exiba o nome completo.
+
+4 - Crie uma constante com o ano atual e uma variável para a idade do usuário. Calcule e exiba o ano de nascimento.
+
+5 - Crie uma variável que armazena a temperatura em Celsius e converta para Fahrenheit usando a fórmula F = C * 9/5 + 32.
+
+6 - Crie variáveis para o nome, sobrenome e idade, e exiba uma frase completa com essas informações.
+
+7 - Crie uma constante para armazenar a porcentagem de aumento salarial. Peça ao usuário para informar seu salário atual e calcule o novo salário após o aumento.
+
+8 - Crie constantes para armazenar o modelo e o ano de fabricação de um carro, e uma variável para armazenar a quilometragem. Exiba uma frase informando essas informações.
+
+9- Peça a idade do usuário e exiba se ele é maior de idade (18 anos ou mais).
+
+10 - Peça ao usuário um número e informe se ele é par ou ímpar.
+
+11 - Solicite ao usuário uma nota entre 0 e 10. Se a nota for maior ou igual a 6, informe que ele foi aprovado. Caso contrário, reprovado.
+
+12 - Peça ao usuário um número de horas e informe se é manhã (0-11), tarde (12-17) ou noite (18-23).
+
+13 - Peça ao usuário sua idade e informe se ele é uma criança (0-12), adolescente (13-17), adulto (18-59) ou idoso (60+).
+
+14 - Peça ao usuário seu peso e altura, calcule o IMC e exiba sua classificação (Abaixo do peso, Normal, Sobrepeso, Obesidade).
+
+15 - Peça ao usuário os comprimentos dos três lados de um triângulo e verifique se é um triângulo válido.
+
+16 - Peça ao usuário seu salário e o tempo de empresa em anos. Se o tempo for maior que 5 anos, calcule um bônus de 20%. Caso contrário, o bônus é de 10%.
+
+17 - Crie uma calculadora que peça dois números e a operação desejada (soma, subtração, multiplicação, divisão) e exiba o resultado.
+
+18 - Peça ao usuário um login e senha e verifique se eles estão corretos (login: "admin", senha: "1234").
+
+19 - Solicite ao usuário uma nota e um fator de bônus (em percentual). Verifique se a nota após o bônus é maior ou igual a 6.
+
+20 - Crie um sistema de login que peça o nome do usuário e a senha. Verifique se o usuário é "admin" ou "user" e exiba o nível de acesso.

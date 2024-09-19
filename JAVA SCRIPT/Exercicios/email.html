@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/estilo-email.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Email</h1>
+    <input type="text" name="txtn1" id="txtn1" placeholder="Email"> 
+<br>
+    <input type="password" name="txtn2" id="txtn2" placeholder="Senha">
+<br>
+    <input type="button" value="entrar" onclick="Entrar()">
+
+    <div id="res"></div>
+
+    <script>
+        function Entrar(){
+        let email = window.document.getElementById (`txtn1`).value;
+        let senha = window.document.getElementById('txtn2').value;
+        let res =  window.document.getElementById('res');
+
+        var email01 = (`Heithor`);
+        var senha01 = (`1408`);
+
+        if (email !== email01) {
+               res.innerHTML = `Email errado`
+
+            } 
+            
+            else if (senha !== senha01) {
+               res.innerHTML = `Senha está errada`;
+            } 
+            
+            else {
+               res.innerHTML = `Login bem-sucedido`;
+            }
+    }
+
+
+    </script>
+    <!-- nn é interessante usar i const pois ele nao é flexivel e nem varia -->
+</body>
+</html>

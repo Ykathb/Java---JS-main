@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1>10 - Peça ao usuário um número e informe se ele é par ou ímpar.</h1>
+<body>
+    <h1>Digite um numero e o sistema ira falar se é par ou impar</h1>
+
+<br>
+
+    <input type="num" name="num" id="txtn1"> 
+
+<br>
+
+    <input type="button" value="entrar" onclick="Show()">
+
+    <div id="res"></div>
+
+    <script>
+        function Show(){
+            let num = window.document.getElementById (`txtn1`).value;
+
+            let i = 1;
+
+            if(num % 2 === 0 ){
+                res.innerHTML = `É par`;
+
+            }
+            else{
+                res.innerHTML = `É impar`;
+            }
+                
+        }
+        
+        
+        
+    
+
+
+
+    </script>
+
+
+    
+</body>
+</html>

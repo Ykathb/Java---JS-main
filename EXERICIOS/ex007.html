@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1>7 - Crie uma constante para armazenar a porcentagem de aumento salarial. Peça ao usuário para informar seu salário atual e calcule o novo salário após o aumento.</h1>
+<body>
+    <h1>informe seu salario atual</h1>
+
+    <input type="text" name="txtn1" id="txtn1" placeholder="aumento salarial" > 
+<br>
+    <input type="button" value="Calcular" onclick="Calcular()">
+
+    <div id="res"></div>
+
+    <script>
+         function Calcular(){
+        const aumento = parseFloat(document.getElementById('txtn1').value);
+
+        var res = window.document.getElementById('res');
+
+        let novoSalario = aumento + (aumento * (aumento / 100));
+
+        res.innerHTML =`Seu novo salario é ${novoSalario}`;
+       
+    
+    }
+    
+    
+
+
+    </script>
+
+    
+</body>
+</html>

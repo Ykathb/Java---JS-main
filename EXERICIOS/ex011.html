@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1>11 - Solicite ao usuário uma nota entre 0 e 10. Se a nota for maior ou igual a 6, informe que ele foi aprovado. Caso contrário, reprovado.</h1>
+<body>
+    <input type="text" name="txtn1" id="txtn1" > 
+
+<br>
+
+    <input type="button" value="Calcular" onclick="Calcular()">
+
+    <div id="res"></div>
+
+    <script>
+        function Calcular(){
+            let boletim = window.document.getElementById (`txtn1`).value;
+
+        
+            if(boletim >= 6){
+                res.innerHTML = `Aprovado`;
+            }
+            else{
+                res.innerHTML = `Reprovado`;
+            }
+    
+
+
+
+        }
+
+
+    </script>
+    
+</body>
+</html>

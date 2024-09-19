@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1>17 - Crie uma calculadora que peça dois números e a operação desejada (soma, subtração, multiplicação, divisão) e exiba o resultado.</h1>
+<body>
+    
+    <h1>Calculadora</h1>
+    <input type="text" name="txtn1" id="txtn1" placeholder="Numero 01"> 
+
+<br>
+
+    
+<select name="operador" id="op">
+    <option value="Somar">Somar</option>
+    <option value="Subtrair">Subtrair</option>
+    <option value="Dividir">Dividir</option>
+    <option value="Multiplicar">Multiplicar</option>
+
+</select>
+
+<br>
+
+    <input type="text" name="txtn3" id="txtn3" placeholder="Numero 02">
+
+<br>
+
+    <input type="button" value="Calcular" onclick="Calcular()">
+
+    <div id="res"></div>
+
+
+    <script>
+        function Calcular(){
+        let divdendo = parseFloat ( window.document.getElementById (`txtn1`).value);
+
+        let operador = window.document.getElementById('op').value;
+
+        let divsor = parseFloat (window.document.getElementById('txtn3').value);
+
+        let res =  window.document.getElementById('res');
+
+        let resultado = 0;
+
+        switch (operador){
+            case 'Somar':
+                resultado = divdendo + divsor;
+                break;
+                
+            case 'Subtrair':
+                resultado = divdendo - divsor;
+                break;
+            
+                case 'Dividir':
+                    if (divsor !== 0) {
+                        resultado = divdendo / divsor;
+                    }
+
+                    break;
+
+                case 'Multiplicar':
+                    resultado = divdendo * divsor;
+            default:
+                break;
+        }
+        document.getElementById('res').innerText = 'Resultado:' + resultado;
+
+
+
+        }
+
+
+
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1>12 - Peça ao usuário um número de horas e informe se é manhã (0-11), tarde (12-17) ou noite (18-23).</h1>
+<body>
+    <h1>Horas</h1>
+    <input type="text" name="txtn1" id="txtn1"> 
+<br>
+    <input type="button" value="Ver" onclick="Ver()">
+
+    <div id="res"></div>
+
+    <script>
+        function Ver(){
+            let horas = window.document.getElementById (`txtn1`).value;
+
+
+            if (horas <= 11){
+                res.innerHTML = `É manha`
+
+            }
+            else if (horas <= 17){
+                res.innerHTML = `É tarde`
+                
+            }
+            else{
+                res.innerHTML = `É noite`
+            }
+
+
+        
+
+
+        }
+
+
+
+    </script>
+    
+</body>
+</html>

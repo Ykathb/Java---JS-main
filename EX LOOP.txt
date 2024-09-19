@@ -1,0 +1,11 @@
+01 - Faça um loop que conte de 1 a 10 e exiba os números no console.
+
+02 - Use um loop while para somar os números de 1 a 5 e exibir a soma total no final.
+
+03 - Solicite ao usuário que insira o nome de 3 alunos e exiba os nomes um por um.
+
+04 - Faça um loop for que exiba apenas os números pares de 1 a 20.
+
+05 - Some todos os números ímpares de 1 a 15 usando um loop do...while e exiba a soma.
+
+06 - Solicite um número ao usuário e exiba a tabuada desse número de 1 a 10.

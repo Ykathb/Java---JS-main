@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1>5 - Crie uma variável que armazena a temperatura em Celsius e converta para Fahrenheit usando a fórmula F = C * 9/5 + 32.</h1>
+<body>
+    <input type="number" name="txtn1" id="txtn1" placeholder="Temperatura"> 
+    <br>
+        <input type="button" value="calcular" onclick="calcular()">
+    
+        <div id="res"></div>
+
+        <script>
+
+            function calcular(){
+        var Celsius = window.document.getElementById (`txtn1`).value;
+        const res =  window.document.getElementById('res');
+                
+        let f = (Celsius * 9/5) + 32;
+        res.innerHTML =`A temperatura convertida é ${f}`;
+        } 
+
+
+        </script>
+
+    
+</body>
+</html>

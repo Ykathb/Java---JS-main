@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1>03 - Solicite ao usuário que insira o nome de 3 alunos e exiba os nomes um por um.</h1>
+<body>
+
+    <h1>alunos</h1>
+    <input type="text" name="txtn1" id="txtn1" placeholder="nome"> 
+
+<br>
+    
+    <input type="text" name="txtn2" id="txtn2" placeholder="nome"> 
+
+<br>
+
+    <input type="text" name="txtn3" id="txtn3" placeholder="nome">
+
+<br>
+
+    <input type="button" value="Show" onclick="Show()">
+
+    <div id="res"></div>
+
+    <script>
+        function Show(){
+            let alunos = ['txtn1', 'txtn2', 'txtn3'];
+            let resultado = '';
+
+            for (let i = 0; i < alunos.length; i++) {
+                let aluno = document.getElementById(alunos[i]).value;
+                resultado += `<p>Aluno: ${aluno}</p>`;
+            }
+
+            document.getElementById('res').innerHTML = resultado;
+        }
+
+             
+
+    
+    
+
+
+
+
+      
+
+
+
+
+    </script>
+    
+</body>
+</html>

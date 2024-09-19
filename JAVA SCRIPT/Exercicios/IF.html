@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Sistema de multas</h1>
+    Velocidade do carro <input type="number" name="txtvel" id="txtvel"> km/h
+
+    <input type="button" value="Verificar" onclick="Calcular()">
+
+    <div id="res">
+
+    </div>
+
+    <script>
+        function Calcular(){
+                var txtv = window.document.querySelector(`input#txtvel`);
+                var res = window.document.querySelector(`div#res`);
+                var vel = Number(txtv.value);
+                 
+                if (vel > 60){
+                    res.innerHTML += `<p>Voce esta multado</p>`;
+                }
+
+                res.innerHTML += `Sua velocidade atual é de ${vel}km/h `
+        }
+
+
+    </script>
+    <!-- var NEW DATE
+     GET NEW YEAR
+     da para pegar horas dias ano -->
+</body>
+</html>
+
+<!--  o switch ele economiza textos e linhas por ao inves 
+  de ficar criando novos else e if é so colocar 
+  
+  SWITHC
+    case
+        "texto"
+    break 
+
+-->
+    <!-- o break serve para ele ler um de cada vez e com pausa -->
